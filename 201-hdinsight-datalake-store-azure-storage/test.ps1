@@ -33,3 +33,6 @@ $servicePrincipal.Id
 
 "Tenant Id"
 (Get-AzureRmContext).Tenant.TenantId
+
+
+[System.Convert]::ToBase64String((Get-Content $certFilePath -Encoding Byte)) > .\spcontents.txt

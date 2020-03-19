@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+	"itemDisplayName": "Deploy Environment in existing Lab VNET",
+	"description": "This template deploys environment where it creates a vm in existing lab VNET",
+	"summary": "This template deploys environment where it creates a vm in existing lab VNET",
+	"githubUsername": "VaijanathB",
+	"dateUpdated": "2020-01-10"
+}
+
